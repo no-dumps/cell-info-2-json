@@ -1,30 +1,21 @@
 # cell-info-2-json
 
 ## 📦Description
+This project is a Maven project that has the ability to return Excel cell information in JsonArray format String.
 
 ## 💬Usage
 
-### Clone the Git project
+```java
+import nodump.noouchi.CellInfo2Json;
 
-```shell
-git clone https://github.com/no-dumps/cell-info-2-json.git
+import java.io.IOException;
+
+public class Program {
+    public static void main(String[] args) throws IOException {
+        String cellInfo = CellInfo2Json.getCellInfo("path");
+    }
+}
 ```
-
-### Maven install
-
-#### Mac
-
-```shell
-./mvnw install
-```
-
-#### Windows
-
-```shell
-mvnw install
-```
-
-### Execution
 
 ## 🎫 License
 
@@ -32,5 +23,6 @@ mvnw install
 
 ## 👀Author
 
+- [Profile](https://naokioouchi.github.io/ooooouchi/)
 - [GitHub](https://github.com/NaokiOouchi)
 - [Twitter](https://twitter.com/NaoNoaNaoNoaN)
