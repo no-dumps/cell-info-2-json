@@ -4,9 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>nodump.noouchi</groupId>
+    <groupId>io.github.no-dumps</groupId>
     <artifactId>cell-info-2-json</artifactId>
     <version>1.0</version>
+
+    <developers>
+        <developer>
+            <id>noouchi</id>
+            <name>Oouchi Naoki</name>
+            <email>noouchi4@gmail.com</email>
+            <url>https://twitter.com/NaoNoaNaoNoaN</url>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/no-dumps/cell-info-2-json</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -29,6 +45,7 @@
             <version>5.0.0</version>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <!-- http://maven.apache.org/plugins/maven-assembly-plugin/ -->
